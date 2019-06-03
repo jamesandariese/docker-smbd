@@ -1,0 +1,5 @@
+FROM jamesandariese/smbd
+
+COPY crypt.sh /
+
+CMD /crypt.sh
